@@ -1,0 +1,15 @@
+**/git
+**/idea
+**/migrations
+**/management
+**/.pycache
+**/static
+**/static.backup
+*.pyc
+*.save
+db.sqlite3
+manage.py
+!/static/js/hifrequencies.js
+!/static/css/hifrequencies.css
+hifrequencies/settings.py
+hifrequencies/settings.dev.py

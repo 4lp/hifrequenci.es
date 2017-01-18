@@ -1,0 +1,7 @@
+{% for entries in newsentry %}
+    <li class="list-group-item">
+        <h3>{{ entries.name|lower }}</h3>
+        <div class="well">{{ entries.content|lower|safe }}</div>
+        <p style="color:#9E9E9E">{{ entries.date|date:" F j, Y P"|lower  }}</p>
+    </li>
+{% endfor %}
