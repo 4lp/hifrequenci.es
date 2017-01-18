@@ -1,0 +1,172 @@
+/*background colors
+.color1 { color: #472bed} - blue
+.color2 { color: #c1f49c} - lt teal
+.color4 { color: #8f48c0} - dk purp
+.color5 { color: #ec90eb} - lt pink
+.color6 { color: #53d156} - dk grn
+.color7 { color: #e782e8} - dk pink
+.color8 { color: #58e458} - lt grn
+.color9 { color: #954fff} - lt purp
+.color10 { color: #ff4ba4} - bold pink
+.color11 { color: #59f1b9} - cyan
+
+pastel
+#a9e8ab - teal
+#f3c1f4 - lt pink
+#ffa5d2 - bld pink
+#caa7ff - fuscia
+#c7a4e0 - lil darker ^
+#a395f6 - lil darker ^
+#808080 - grey
+
+greys light to dark
+#CECDCD
+#9E9E9E
+#717171
+#3C3B3B
+
+*/
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+body{
+    max-height: 100%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.center {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul {
+    list-style-type:none;
+}
+
+h1, h2 {
+    font-family:'PT Sans Caption', sans-serif;
+    color:#9E9E9E;
+    letter-spacing: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h3, h4, h5, h6 {
+    font-family:'PT Sans Caption', sans-serif;
+    color:#717171;
+    letter-spacing: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p, div {
+    color:#CECDCD;
+    font-family:'PT Sans Caption', sans-serif;;
+}
+
+a:link, a:visited {
+    color:#717171;
+}
+
+a:hover {
+    color:#CECDCD;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.btn {
+    color: #CECDCD;
+    background:#717171;
+}
+
+.btn:hover {
+    /*color: #59f1b9;*/
+    color: #000000;
+    background: #CECDCD;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.other:hover {
+    background: #CECDCD;
+}
+
+
+.well {
+    background:#3C3B3B;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+}
+
+.badge {
+    background:#caa7ff;
+}
+
+.panel-default {
+    background-color:#CECDCD;
+    margin-top: 50px;
+}
+
+.panel-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-group{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-group-item{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.social i {
+    color:#717171;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #CECDCD;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
